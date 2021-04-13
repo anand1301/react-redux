@@ -1,0 +1,8 @@
+@media (max-width: 500px) {
+  .output {
+    flex-direction: column !important;
+  }
+}
+/* .output img {
+  height: 400px;
+} */

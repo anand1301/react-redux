@@ -1,0 +1,20 @@
+$color: grey;
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.output {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: $color;
+
+  img {
+    height: auto;
+  }
+}
+.selection-container {
+  justify-content: center;
+  margin: 10px;
+}

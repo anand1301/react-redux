@@ -1,4 +1,4 @@
- GETTING STARTED WITH CREATE REACT APP.
+GETTING STARTED WITH CREATE REACT APP.
 ---This project is created with npm create-react-app Create React App.
 
 TECKSTACK USED IN THE PROJECT
@@ -10,8 +10,8 @@ TECKSTACK USED IN THE PROJECT
 -- VS code.
 -- SCSS for CSS
 
- HOW TO RUN APP :
---Clone the repository
+HOW TO RUN APP :
+--Clone the repositories
 --Open project in VS Code
 --Run NPM Install command weatherapp level directory
 --Once node module update
@@ -35,3 +35,5 @@ Making app:
 --I have used ReactJs to develop app because it was original requirement and react is giving Single Page Application facility, so performance of site is quick responsive and fast.
 --For clear code and future requirements of reusable component, I have used component methodology so in future if requirements go bigger, developer can handle very easily and understands where to change.
 Also used react-router to route the page. As per requirements app has three pages with routing facility.
+
+Created by Anand Thakkar

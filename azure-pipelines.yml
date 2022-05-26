@@ -28,7 +28,10 @@ steps:
     cliProjectKey: 'alkeshnarsaim36_devops-learning'
     cliProjectName: 'devops learning'
     cliSources: '.'
+  enabled: false
 - task: SonarCloudAnalyze@1
+  enabled: false
 - task: SonarCloudPublish@1
   inputs:
     pollingTimeoutSec: '300'
+  enabled: false

@@ -29,14 +29,5 @@ steps:
     cliProjectName: 'devops learning'
     cliSources: '.'
   enabled: false
-- task: SonarCloudAnalyze@1
-  enabled: false
-- task: SonarCloudPublish@1
-  inputs:
-    pollingTimeoutSec: '300'
-  enabled: false
 - task: PublishBuildArtifacts@1
-  inputs:
-   PathtoPublish: '$(Build.ArtifactStagingDirectory)'
-   ArtifactName: 'drop'
-   publishLocation: 'Container'
+  
